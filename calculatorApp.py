@@ -1,12 +1,12 @@
 import tkinter as tk
 
-# Función para actualizar la entrada del texto
+# Update input
 def click_button(item):
     global expression
     expression += str(item)
     input_text.set(expression)
 
-# Función para evaluar la expresión final
+# Evaluate the result
 def evaluate():
     global expression
     try:
@@ -17,13 +17,13 @@ def evaluate():
         input_text.set("Error")
         expression = ""
 
-# Función para limpiar la entrada
+# Clean the input
 def clear():
     global expression
     expression = ""
     input_text.set("")
 
-# Configuración de la ventana principal
+# Set up the principal window
 window = tk.Tk()
 window.title("Calculadora Simple")
 window.geometry("400x500")
@@ -31,14 +31,14 @@ window.geometry("400x500")
 expression = ""
 input_text = tk.StringVar()
 
-# Cuadro de entrada
+# Input
 input_frame = tk.Frame(window)
 input_frame.pack(pady=10)
 input_field = tk.Entry(input_frame, textvariable=input_text, font=('arial', 18, 'bold'), width=50, bd=5, insertwidth=4, justify='right')
 input_field.grid(row=0, column=0)
 input_field.pack(ipady=10)
 
-# Botones
+# uttons
 button_frame = tk.Frame(window)
 button_frame.pack()
 
