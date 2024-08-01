@@ -23,9 +23,9 @@ def clear():
     expression = ""
     input_text.set("")
 
-# Set uo the principal window
+# Set up the principal window
 window = tk.Tk()
-window.title("Calculadora Simple")
+window.title("Calculator")
 window.geometry("400x500")
 
 expression = ""
