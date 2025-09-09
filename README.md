@@ -1,27 +1,24 @@
-# 🧮 Tkinter Calculator
+# 🚀 DevOps_app
 
-A simple GUI calculator built with **Python** and **Tkinter**.  
-Originally a practice project, now cleaned up and improved.
+This project combines **a Python calculator** with **basic DevOps practices**.  
+The goal is to learn how to apply **Continuous Integration (CI)** using GitHub Actions while developing a simple app.
 
 ---
 
-## 🚀 Features
+## 🧮 Calculator Features
+
 - Basic operations: `+`, `-`, `*`, `/`
 - Decimal support
-- Clear button (`C`)
-- Class-based design for easier maintenance
-- Simple and lightweight (just Python standard library)
+- Clear button `C`
+- `Calculator` class for better maintainability
+- Graphical user interface with Tkinter
 
 ---
 
-## 📸 Screenshot
-(Add a screenshot here of your calculator running)
+## ⚙️ DevOps Features
 
----
-
-## 🛠️ Installation & Usage
-
-Clone the repo:
-```bash
-git clone https://github.com/<your-username>/tkinter-calculator.git
-cd tkinter-calculator
+- GitHub Actions pipeline that runs on push or pull request to the `main` branch
+- Linter (`flake8`) to ensure Python code follows best practices
+- Prepared for future improvements:
+  - Unit tests
+  - Dockerization
