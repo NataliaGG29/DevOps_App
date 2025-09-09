@@ -1,12 +1,14 @@
 import tkinter as tk
 
 # Update input
+
 def click_button(item):
     global expression
     expression += str(item)
     input_text.set(expression)
 
 # Evaluate the result
+
 def evaluate():
     global expression
     try:
@@ -18,6 +20,7 @@ def evaluate():
         expression = ""
 
 # clean the input
+
 def clear():
     global expression
     expression = ""
@@ -58,4 +61,5 @@ clear_button = tk.Button(button_frame, text='C', font=('arial', 18, 'bold'), fg=
 clear_button.grid(row=4, column=0, padx=1, pady=1)
 
 window.mainloop()
+
 
