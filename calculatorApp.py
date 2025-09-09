@@ -62,4 +62,3 @@ clear_button.grid(row=4, column=0, padx=1, pady=1)
 
 window.mainloop()
 
-
