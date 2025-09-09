@@ -1,4 +1,4 @@
-# 🚀 DevOps_app
+# DevOps_app
 
 ![CI](https://github.com/NataliaGG29/DevOps_App/actions/workflows/ci.yml/badge.svg)
 
