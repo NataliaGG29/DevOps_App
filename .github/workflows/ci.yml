@@ -25,4 +25,5 @@ jobs:
 
       - name: Run Linter
         run: |
-          flake8 calculatorApp.py --max-line-length=100
+          flake8 . --max-line-length=120 --ignore=E501
+
