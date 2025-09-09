@@ -13,7 +13,7 @@ def evaluate():
         result = str(eval(expression))
         input_text.set(result)
         expression = result
-    except:
+    except Exception:
         input_text.set("Error")
         expression = ""
 
@@ -58,3 +58,4 @@ clear_button = tk.Button(button_frame, text='C', font=('arial', 18, 'bold'), fg=
 clear_button.grid(row=4, column=0, padx=1, pady=1)
 
 window.mainloop()
+
